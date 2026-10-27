@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TubesP5-PWD-Craftify </title>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    
+    <!-- NAVBAR -->
+    <div class="navbar" id="home">
+        <nav class="navbar">
+            <div class="logo"> 
+                <i class="fa-solid fa-gem"></i> Craftify
+            </div>
+            
+            <ul class="nav-links">
+                <!-- Home Dropdown -->
+                <li class="nav-item">
+                    <a href="#home"><i class="fa-solid fa-house"></i> Home</a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <div class="dropdown-column">
+                                <p class="dropdown-title">Jelajahi Craftify</p>
+                                <h2>Koleksi Terbaru</h2>
+                                <h2>Produk Populer</h2>
+                                <h2>Diskon Minggu Ini</h2>
+                            </div>
+                            <div class="dropdown-column">
+                                <p class="dropdown-title">Tentang Kami</p>
+                                <a href="#"><i class="fa-solid fa-heart"></i> Cerita Pembuat</a>
+                                <a href="#"><i class="fa-solid fa-award"></i> Bahan Berkualitas</a>
+                                <a href="#"><i class="fa-solid fa-ruler"></i> Panduan Ukuran</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Products Dropdown -->
+                <li class="nav-item">
+                    <a href="#products"><i class="fa-solid fa-store"></i> Products</a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <div class="dropdown-column">
+                                <p class="dropdown-title">Aksesoris Manik</p>
+                                <h2>Kalung Manik</h2>
+                                <h2>Gelang Manik</h2>
+                                <h2>Cincin Manik</h2>
+                            </div>
+                            <div class="dropdown-column">
+                                <p class="dropdown-title">Koleksi Rajutan</p>
+                                <a href="#"><i class="fa-solid fa-shirt"></i> Cardigan Rajut</a>
+                                <a href="#"><i class="fa-solid fa-teddy-bear"></i> Boneka Rajut</a>
+                                <a href="#"><i class="fa-solid fa-key"></i> Gantungan Kunci</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Gallery Dropdown -->
+                <li class="nav-item">
+                    <a href="#gallery" id="gallery"><i class="fa-solid fa-images"></i> Gallery</a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <div class="dropdown-column">
+                                <p class="dropdown-title">Galeri Foto</p>
+                                <h2>Foto Pelanggan</h2>
+                                <h2>Proses Pembuatan</h2>
+                            </div>
+                            <div class="dropdown-column">
+                                <p class="dropdown-title">Inspirasi Style</p>
+                                <a href="#"><i class="fa-solid fa-wand-magic-sparkles"></i> OOTD Manik-Manik</a>
+                                <a href="#"><i class="fa-solid fa-palette"></i> Kombinasi Warna</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Cart Dropdown -->
+                <li class="nav-item">
+                    <a href="#cart" id="cart"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <div class="dropdown-column">
+                                <p class="dropdown-title">Keranjang Belanja</p>
+                                <h2>Ringkasan Pesanan</h2>
+                                <h2>Cek Ongkir</h2>
+                            </div>
+                            <div class="dropdown-column">
+                                <p class="dropdown-title">Bantuan</p>
+                                <a href="#"><i class="fa-solid fa-credit-card"></i> Cara Pembayaran</a>
+                                <a href="#"><i class="fa-solid fa-truck-fast"></i> Status Pengiriman</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- PENCARIAN -->
+            <div class="pencarian">
+                <input type="text" class="search-input" placeholder="Cari aksesoris, rajutan...">
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </nav>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Handcrafted with Love & Perfection.</h1>
+        <p>Sentuhan keindahan buatan tangan. Koleksi gelang manik, cincin, kalung, hingga boneka rajut yang eksklusif untuk gaya unikmu.</p>
+        <div class="hero-button">
+            <button class="btn-primary"><i class="fa-solid fa-bag-shopping"></i> Shop Now</button>
+            <button class="btn-secondary"><i class="fa-solid fa-circle-info"></i> Selengkapnya</button>
+        </div>
+    </section>
+
+    <!-- PRODUK LIST -->
+    <section class="produk" id="products">
+        <h2>Koleksi Eksklusif Aksesoris Manik & Hasil Rajutan Tangan</h2>
+        
+        <div class="produk-boxes">
+            <!-- Produk 1 -->
+            <div class="produk-item">
+                <img src="../asset/image/kalung.jpg" alt="Kalung Manik" class="gambar-produk">
+                <h3>Kalung Manik Pastel</h3>
+                <p>Koleksi Aksesoris Manik</p>
+                <div class="produk-info">
+                    <p><i class="fa-solid fa-user-pen"></i> By Mega</p>
+                    <h4>Rp 200.000</h4>
+                </div>
+                <button class="keranjang"><i class="fa-solid fa-cart-plus"></i> View Product</button>
+            </div>
+
+            <!-- Produk 2 -->
+            <div class="produk-item">
+                <img src="../asset/image/cardingan.jpg" alt="Cardigan Rajut" class="gambar-produk">
+                <h3>Cardigan Rajut Premium</h3>
+                <p>Koleksi Pakaian Rajut</p>
+                <div class="produk-info">
+                    <p><i class="fa-solid fa-user-pen"></i> By Mega</p>
+                    <h4>Rp 210.000</h4>
+                </div>
+                <button class="keranjang"><i class="fa-solid fa-cart-plus"></i> View Product</button>
+            </div>
+
+            <!-- Produk 3 -->
+            <div class="produk-item">
+                <img src="../asset/image/boneka.jpg" alt="Boneka Rajut" class="gambar-produk">
+                <h3>Boneka Rajut Imut</h3>
+                <p>Koleksi Rajut Handmade</p>
+                <div class="produk-info">
+                    <p><i class="fa-solid fa-user-pen"></i> By Mega</p>
+                    <h4>Rp 300.000</h4>
+                </div>
+                <button class="keranjang"><i class="fa-solid fa-cart-plus"></i> View Product</button>
+            </div>
+
+            <!-- Produk 4 -->
+            <div class="produk-item">
+                <img src="../asset/image/cincin.jpg" alt="Cincin Manik" class="gambar-produk">
+                <h3>Cincin Manik Bunga</h3>
+                <p>Koleksi Aksesoris Manik</p>
+                <div class="produk-info">
+                    <p><i class="fa-solid fa-user-pen"></i> By Mega</p>
+                    <h4>Rp 150.000</h4>
+                </div>
+                <button class="keranjang"><i class="fa-solid fa-cart-plus"></i> View Product</button>
+            </div>
+
+            <!-- Produk 5 -->
+            <div class="produk-item">
+                <img src="../asset/image/gantungan.jpg" alt="Gantungan Kunci" class="gambar-produk">
+                <h3>Gantungan Kunci Rajut</h3>
+                <p>Koleksi Aksesoris Rajut</p>
+                <div class="produk-info">
+                    <p><i class="fa-solid fa-user-pen"></i> By Mega</p>
+                    <h4>Rp 100.000</h4>
+                </div>
+                <button class="keranjang"><i class="fa-solid fa-cart-plus"></i> View Product</button>
+            </div>
+
+            <!-- Produk 6 -->
+            <div class="produk-item">
+                <img src="../asset/image/gelang.jpg" alt="Gelang Manik" class="gambar-produk">
+                <h3>Gelang Manik Aesthetic</h3>
+                <p>Koleksi Aksesoris Manik</p>
+                <div class="produk-info">
+                    <p><i class="fa-solid fa-user-pen"></i> By Mega</p>
+                    <h4>Rp 349.000</h4>
+                </div>
+                <button class="keranjang"><i class="fa-solid fa-cart-plus"></i> View Product</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FLOATING BAR DAN BACK TO TOP -->
+    <div class="floating-container">
+        <a href="#home" class="btn-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+
+        <!-- Floating Bar Menu Awwwards Style -->
+        <div class="floating-bar">
+            <div class="floating-logo"><i class="fa-solid fa-gem"></i></div>
+            <div class="floating-menu">
+                <a href="#"><i class="fa-solid fa-star"></i> Nominees</a>
+                <a href="#"><i class="fa-solid fa-graduation-cap"></i> Courses</a>
+                <a href="#"><i class="fa-solid fa-layer-group"></i> Collections</a>
+                <a href="#"><i class="fa-solid fa-folder-open"></i> Directory</a>
+                <a href="#" class="active"><i class="fa-solid fa-shop"></i> Market</a>
+            </div>
+            <a href="#products" class="btn-visit"><i class="fa-solid fa-store"></i> Visit Shop</a>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-game">
+        <div class="arena-3d">
+            <div class="grid-floor"></div>
+
+            <div class="poin-item poin-1"><i class="fa-solid fa-tag"></i> 10% OFF</div>
+            <div class="poin-item poin-2"><i class="fa-solid fa-gift"></i> 20% OFF</div>
+        </div>
+
+        <div class="footer-info">
+            <h3><i class="fa-solid fa-gem"></i> Craftify World</h3>
+            <p>Jelajahi perhiasan buatan tangan dan kreasi rajutan di dunia yang interaktif.</p>
+            <p class="copyright">&copy; 2026 Craftify. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
